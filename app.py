@@ -91,7 +91,11 @@ if st.button("🔍 Analyze Dispute", type="primary"):
         'reason_not_as_described': 1 if reason=='not_as_described' else 0,
         'reason_unauthorized': 1 if reason=='unauthorized' else 0,
     }])
-    X = X[feature_cols]
+       correct_order = ['delivery_confirmed','ip_geo_match','avs_match','cvv_match',
+                      'prior_orders_count','days_since_signup','customer_dispute_history_count',
+                      'amount','delivery_days','reason_item_not_received',
+                      'reason_not_as_described','reason_unauthorized']
+    X = X[correct_order]
     X_scaled = scaler.transform(X)
     prob = model.predict_proba(X_scaled)[0][1]
     tier = tier_decision(prob)
