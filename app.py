@@ -41,7 +41,6 @@ def generate_evidence_packet(row, prob, tier):
     return "\n".join(lines)
 
 st.title("🛡️ ChargebackIQ")
-st.caption("AI Risk Manager — Chargeback Evidence Responder | Track 02")
 st.markdown("Predict dispute win-probability, auto-generate evidence packets, and route uncertain cases to human review. **Defense-only** — no autonomous financial actions.")
 
 st.divider()
