@@ -49,4 +49,4 @@ We evaluated both. XGBoost overfit on this dataset size (ROC-AUC 0.743 vs. 0.782
 
 ## Team / Author
 
-Devansh — Track 02 Submission, Razorpay AI Buildathon
+Devansh
