@@ -1,6 +1,6 @@
-# 🛡️ ChargebackIQ — AI Risk Manager
+# 🛡️ ChargebackIQ
 
-**Track 02: Chargeback Evidence Responder**
+**Chargeback Evidence Responder**
 *Stop the merchant losing money to fraud, returns and chargebacks*
 
 🔗 **Live Demo:** [chargebackiq-aypyrdzpzmlxfpnnp7bvls.streamlit.app](https://chargebackiq-aypyrdzpzmlxfpnnp7bvls.streamlit.app)
