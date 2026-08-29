@@ -95,7 +95,7 @@ if st.button("🔍 Analyze Dispute", type="primary"):
                       'prior_orders_count','days_since_signup','customer_dispute_history_count',
                       'amount','delivery_days','reason_item_not_received',
                       'reason_not_as_described','reason_unauthorized']
-        X = X[correct_order]
+    X = X[correct_order]
     X_scaled = scaler.transform(X)
     prob = model.predict_proba(X_scaled)[0][1]
     tier = tier_decision(prob)
